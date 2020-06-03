@@ -10,7 +10,7 @@ public class PosicaoXadrez {
 	
 	public PosicaoXadrez(char coluna, int linha) {
 		if (coluna < 'a' || coluna > 'h' || linha < 1 || linha > 8) {
-			throw new TabuleiroException("Erro ao instanciar posição. Valores válidos estão entre a1 e h8.");
+			throw new TabuleiroException("Erro ao instanciar posicao. Valores validos estao entre a1 e h8");
 		}
 		this.coluna = coluna;
 		this.linha = linha;
